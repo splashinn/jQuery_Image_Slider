@@ -1,0 +1,83 @@
+.carousel-container {
+  width: 300px;
+  height: 360px;
+  margin: 20px auto;
+  border: 1px solid #777;
+}
+
+.carousel {
+  width: 300px;
+  height: 300px;
+  background: #ddd;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: inherit;
+  height: inherit;
+  float: left;
+  display: none;
+}
+
+.carousel-item p {
+  color: #fff;
+  margin: 0;
+  line-height: 300px;
+  font-family: Calibri;
+  font-size: 50px;
+  text-align: center;
+}
+
+#item1 {
+  background: #22709c; /* BLUE */
+}
+
+#item2 {
+  background: #229c6c; /* SEA GREEN */
+}
+
+#item3 {
+  background: #4a229c; /* PURPLE */
+}
+
+#item4 {
+  background: #cdc72c; /* YELLOW */
+}
+
+.carousel-controls {
+  width: inherit;
+  height: 35px;
+}
+
+.carousel-container .carousel-controls > a {
+  color: #777;
+  margin: 5px;
+  padding: 5px;
+  font-family: Calibri;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all 0.2s;
+}
+
+
+.carousel-container .carousel-controls > a:hover {
+  color: #222;
+}
+
+.carousel-container .carousel-controls > a.left {
+  float: left;
+}
+
+.carousel-container .carousel-controls > a.right {
+  float: right;
+}
+
+.carousel-status {
+  margin: 0;
+  color: #444;
+  font-family: Calibri;
+  font-size: 12px;
+  text-align: center;
+}
